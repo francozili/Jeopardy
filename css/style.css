@@ -1,0 +1,11 @@
+@font-face{ font-family:walt; src: url(/fonts/waltographUI.ttf); }
+.backimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: walt;
+    font-size: 25px;
+  }
