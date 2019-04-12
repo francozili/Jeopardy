@@ -55,6 +55,75 @@
   .gamePage1{
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
-
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border:solid black;
   }
+  .title1{
+    grid-column: span 2;
+    grid-row: 1;
+    text-align: center;
+    font-family: walt;
+  }
+  .question1{
+    grid-column: 1;
+    grid-row: 2;
+    height: 80vh;
+    padding-top: 80px;
+  }
+  
+  .question2{
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .question3{
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .question4{
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .question5{
+    grid-column: 1;
+    grid-row: 6;
+  }
+   .cat1Head1{
+     text-align: center;
+   }
+   .cat1que1{
+     text-align:center
+   }
+   .cat1ans{
+    grid-column: 2;
+    grid-row: 2;
+    height: 80vh;
+    padding-top: 80px;
+    border:solid black;
+   }
+   .que1but{
+    height: 10vh;
+    margin: 20px;
+    align-items: center
+   }
+
+   table{
+    text-align:center;
+    color:white;
+    background-color:rgb(42, 116, 116);
+     border:1;
+     height:80vh;
+     width:80vh;
+     border: solid black;
+     margin-left: 30%;
+     margin-top: 5%
+   }
+   td{
+     border:solid black;
+   }
+
+   .gameBox{
+ 
+   }
