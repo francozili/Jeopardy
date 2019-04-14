@@ -1,13 +1,21 @@
 @font-face{ font-family:walt; src: url(/fonts/waltographUI.ttf); }
+@font-face{ font-family:cold; src: url(/fonts/Black\ Santa.ttf); }
+@font-face{ font-family:horror; src: url(/fonts/FEASFBRG.TTF); }
+@font-face{ font-family:sky; src: url(/fonts/Blaize.otf); }
+@font-face{ font-family:john; src: url(/fonts/johnnytorchexpand.ttf); }
 .backimg {
-    background-image: url('/images/rain.jpg');
+
+    background-image: url('/images/Jupiter_Flyby_HP.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: gold;
-    font-family: walt;
-    font-size: 25px;
+    color:red;
+    font-family:sky ;
+    font-size: 30px;
+  }
+  .jeo{
+    font-family: john;
   }
   body, html {
     height: 100%;
@@ -28,7 +36,7 @@
     position: absolute;
     bottom: 0;
     left: 16px;
-    font-family: walt;
+    font-family: cold;
   }
   
   .center {
@@ -45,13 +53,17 @@
   }
    
   .landingButton {
-    color:black;
-    background-color: green;
-    /* font-family: walt; */
+    color: black;
+    background-color: purple;
+    font-family: horror;
     font-size: 20px;
-
+    text-decoration:none;
+    border-radius: 200px
   }
 
+  .landingButton:hover{
+   background-color: red;
+  }
   .gamePage1{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -62,7 +74,7 @@
     grid-column: span 2;
     grid-row: 1;
     text-align: center;
-    font-family: walt;
+    font-family: cold;
   }
   .question1{
     grid-column: 1;
