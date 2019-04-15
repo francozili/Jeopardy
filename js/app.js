@@ -166,11 +166,11 @@ let checkingWithdrawal = document.getElementsByClassName('subtract')[0].addEvent
    let currentBal = scoreBalance - Number(checkingWithDrawal)
    if (currentBal <= -3000 ) {
        alert("You Lost")
-      
+       document.getElementById("scoreBoard").classList.add("loss")
    } 
    else if (currentBal  >= 3000 ) {
      alert("You won")
-     
+     document.getElementById("scoreBoard").classList.add("win")
  } 
    else {
      scoreBalance = currentBal
