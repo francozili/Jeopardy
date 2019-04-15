@@ -17,7 +17,24 @@
     <div class="logo">
         <a href="/index.html"><img src="/images/logo.webp" height="80px"></a>
     </div>
-   <!-- Table bord for the game -->
+
+    <!-- This is the page for the question and anwer popup -->
+    <!-- <div class="popUp">
+        <h1 class="gameQue"></h1>
+        <img id="gif" src="/images/loading.gif" height=100px alt="" />
+        <h3 class="countDown"></h3>
+    </div> -->
+    <div id="openModal" class="modalDialog popUp">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h1 class="gameQue"></h1>
+            <img id="gif" src="/images/loading.gif" height=100px alt="" />
+            <h3 class="countDown"></h3>
+            </div>
+        </div>
+    <!-- Audio for the game -->
+    <audio src="/music/Blues-style-piano-loop-112 bpm.wav" id="bkMusic" loop=true></audio>
+    <!-- Table bord for the game -->
     <table>
         <tr>
 
@@ -30,60 +47,63 @@
         </tr>
         <tr>
 
-            <td id="catMon"><button class="btn" id="b0">$100</button></td>
-            <td id="catMon"><button class="btn" id="b5">100</button></td>
-            <td id="catMon"><button class="btn" id="b10">100</button></td>
-            <td id="catMon"><button class="btn" id="b15">100</button></td>
-            <td id="catMon"><button class="btn" id="b20">100</button></td>
-            <td id="catMon"><button class="btn" id="b25">100</button></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b0">$100</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b5">$100</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b10">$100</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b15">$100</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b20">$100</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b25">$100</button></a></td>
         </tr>
         <tr>
 
-            <td id="catMon"><button class="btn" id="b1">200</button></td>
-            <td id="catMon"><button class="btn" id="b6">200</button></td>
-            <td id="catMon"><button class="btn" id="b11">200</button></td>
-            <td id="catMon"><button class="btn" id="b16">200</button></td>
-            <td id="catMon"><button class="btn" id="b21">200</button></td>
-            <td id="catMon"><button class="btn" id="b26">200</button></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b1">$200</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b6">$200</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b11">$200</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b16">$200</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b21">$200</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b26">$200</button></a></td>
         </tr>
         <tr>
 
-            <td id="catMon"><button class="btn" id="b2">300</button></td>
-            <td id="catMon"><button class="btn" id="b7">300</button></td>
-            <td id="catMon"><button class="btn" id="b12">300</button></td>
-            <td id="catMon"><button class="btn" id="b17">300</button></td>
-            <td id="catMon"><button class="btn" id="b22">300</button></td>
-            <td id="catMon"><button class="btn" id="b27">300</button></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b2">$300</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b7">$300</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b12">$300</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b17">$300</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b22">$300</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b27">$300</button></a></td>
         </tr>
         <tr>
 
-            <td id="catMon"><button class="btn" id="b3">400</button></td>
-            <td id="catMon"><button class="btn" id="b8">400</button></td>
-            <td id="catMon"><button class="btn" id="b13">400</button></td>
-            <td id="catMon"><button class="btn" id="b18">400</button></td>
-            <td id="catMon"><button class="btn" id="b23">400</button></td>
-            <td id="catMon"><button class="btn" id="b28">400</button></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b3">$400</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b8">$400</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b13">$400</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b18">$400</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b23">$400</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b28">$400</button></a></td>
         </tr>
         <tr>
 
-            <td id="catMon"><button class="btn" id="b4">500</button></td>
-            <td id="catMon"><button class="btn" id="b9">500</button></td>
-            <td id="catMon"><button class="btn" id="b14">500</button></td>
-            <td id="catMon"><button class="btn" id="b19">500</button></td>
-            <td id="catMon"><button class="btn" id="b24">500</button></td>
-            <td id="catMon"><button class="btn" id="b29">500</button></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b4">$500</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b9">$500</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b19">$500</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b24">$500</button></a></td>
+            <td id="catMon"><a href="#openModal"><button class="btn" id="b29">$500</button></a></td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <div id="scoreBoard" class="score">
+                    <h2>Price Board</h2>
+                    <div class="balance">$0</div>
+                    <input class="input" type="text" placeholder="enter amount" />
+                    <input id="add" class="add" type="button" value="ADD" />
+                    <input class="subtract" type="button" value="SUBTRACT" />
+                </div>
+            </td>
         </tr>
 
     </table>
+    
 
-<!-- This is the page for the question and anwer popup -->
-<div class="popUp">
-    <h1 class="gameQue"></h1>
-    <img id="gif" src="/images/loading.gif" height=100px alt="" />
-    <h3 class="countDown"></h3>
-</div>
-<!-- Audio for the game -->
-<audio src="/music/Blues-style-piano-loop-112 bpm.wav" id="bkMusic" loop=true></audio>
 
 </body>
 
