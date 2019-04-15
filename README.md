@@ -1,7 +1,7 @@
 # Jeopardy
 # Project1
 #Linkto my deployed page
-Deployed link https://amazing-turing-529f7f.netlify.com
+Deployed link https://youthful-swanson-d21be3.netlify.com
 #Link to my Trello
 Trello link https://trello.com/b/pFdPMDii/project-1
 #The link to your project board is the the github link
@@ -13,4 +13,6 @@ https://github.com/francozili/Jeopardy
 ![whiteboarding](images/IMG_8905.JPG)
 ![whiteboarding](images/IMG_8906.JPG)
 ![whiteboarding](images/IMG_8907.JPG)
+#Wireframe
+![wireframe](images/wireframe.JPG)
 
