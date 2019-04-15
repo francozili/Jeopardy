@@ -166,11 +166,11 @@ let scoreRemoval = document.getElementsByClassName('subtract')[0].addEventListen
    let scoreremoval = document.getElementsByClassName('input')[0].value
    let currentBal = scoreBalance - Number(scoreremoval)
    if (currentBal <= -3000) {
-      alert("You Lost")
+      prompt("You Lost")
       document.getElementById("scoreBoard").classList.add("loss")
    }
    else if (currentBal >= 3000) {
-      alert("You won")
+      prompt("You won")
       document.getElementById("scoreBoard").classList.add("win")
    }
    else {
