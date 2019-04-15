@@ -32,6 +32,39 @@ let questions = [
     "How many chambers are there in a dog’s heart?",
 ]
 
+let answers = [
+    "Shaking my head",
+    "Apple",
+    "Ask me anything",
+    "Facebook",
+    "The legend of zelda",
+    "Mercury",
+    "One",
+    "Mecury",
+    "Copper",
+    "Aluminum",
+    "Harry Potter and the Deathly Hallows",
+    "Headwig",
+    "Gryffindor, Ravenclaw, Hufflepuff, & Slytherin",
+    "Hermione Granger",
+    "Alfonso Cuarón",
+    "Killer Whale",
+    "Ostrich",
+    "King Cobra",
+    "Giraffe",
+    "Australia",
+    "The Hand",
+    "206",
+    "0+",
+    "Copper",
+    "Red blood cells",
+    "Australia",
+    "Mexico",
+    "Dog",
+    "Pug and Beagle",
+    "Four"
+]
+
 
 
 
