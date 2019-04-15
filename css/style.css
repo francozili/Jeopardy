@@ -69,9 +69,8 @@
   /* Styling for Game Board */
   .gamePage1{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    border:solid black;
     background-image: url(/images/rose.jpeg);
     background-repeat:  no-repeat;
     background-size: cover
@@ -96,8 +95,8 @@
      height:80vh;
      width:115vh;
      border: solid black;
-     margin-left: 30%;
-     margin-top: 10%
+     margin-left: 20%;
+     margin-top: 1%
    }
    td{
      border:solid black;
@@ -118,7 +117,8 @@
   font-weight: 10px;
   text-align: center;
   color: gold;
-  margin-top: 30px
+  margin-top: 30px;
+  z-index: 1;
 }
   
 .countDown {
@@ -200,4 +200,36 @@
 }
 .h2{
   text-align: center;
+}
+/* ------------------------------------------ */
+.score {
+  background-color:black ;
+  color:red;
+  border: 1px solid #295A33;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.balance {
+  background-color: #E3E3E3;
+  border: 1px solid #676767;
+  border-radius: 15px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 50px;
+  margin: 5px;
+  padding: 25px 0px;
+}
+
+.loss {
+  background-color: red;
+  color: blue;
+}
+
+.win {
+  background-color:green;
+  color: blue;
 }
