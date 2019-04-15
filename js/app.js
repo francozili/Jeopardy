@@ -149,5 +149,16 @@ function updateTimeValue() {
 //    document.getElementById("checkBalance").innerText = newBal
 // }
 
-// Function to add and subtract score
+// Function to add score
+let scoreBalance = 0
+let checkingDepositeButton = document.getElementsByClassName('add')[0].addEventListener('click', function () {
+    let checkingDeposite = document.getElementsByClassName('input')[0].value
+    scoreBalance += Number(checkingDeposite)
+    console.log(scoreBalance)
+    let newCheckingBalance = document.getElementsByClassName('balance')[0].innerText = "$" + scoreBalance
+    if (scoreBalance > 0) {
+        document.getElementById("scoreBoard").classList.remove("loss")
+    }
+})
+
 
