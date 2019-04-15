@@ -65,6 +65,16 @@ let answers = [
     "Four"
 ]
 
+let halt;
+let secondsLeft;
+let x;
+
+for (i = 0; i < 30; i++) {
+   btnId = "#b" + i;
+   x = i;
+   checkClick(btnId, i);
+}
+
 
 
 
