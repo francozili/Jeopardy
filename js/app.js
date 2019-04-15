@@ -93,7 +93,15 @@ function checkClick(idOrClass, x) {
       });
    });
 }
-
+// Function to start timer and show gif 
+function startTimer() {
+   $("#bkMusic")[0].play();
+   $("#gif").show();
+   $(".countDown").show();
+   secondsLeft = 15;
+   displayTimer();
+   halt = window.setInterval(updateTimeValue, 2000);
+}
 
 
 
