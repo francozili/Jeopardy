@@ -1,3 +1,36 @@
+$(".popUp").hide();
+let questions = [
+    "What does the online acronym SMH stand for?",
+    "What was the first publicly traded U.S. company to reach a $1 trillion market cap?",
+    "On the popular social website Reddit, what does AMA stand for?",
+    "Mark Zuckerberg was one of the founders of which social networking site?",
+    "What was the first console video game that allowed the game to be saved?",
+    "Which metallic element has a melting point of approximately −38 °F (−39 °C)?",
+    "How many electrons does a hydrogen atom have?",
+    "What heavy metal element was once known as quicksilver?",
+    "What chemical element gives the blood of a lobster a bluish tint?",
+    "Which is the most abundant metal in the earth’s crust?",
+    "What is the seventh and final novel of the Harry Potter series?",
+    "In the Harry Potter series, what is the name of Harry’s pet owl?",
+    "What are the four houses at Hogwarts School of Witchcraft and Wizardry",
+    "Emma Watson is known for playing which character in Harry Potter?",
+    "Who directed the movie “Harry Potter and the Prisoner of Azkaban”?",
+    "Orcinus orca is the scientific name for which animal?",
+    "Which bird has eyes that are larger than its brain?",
+    "What is the only snake in the world that builds a nest for its eggs?",
+    "What is the only mammal born with horns?",
+    "A wombat is a marsupial native to which country?",
+    "What part of the human body contains five metacarpal bones?",
+    "The adult human skeleton is made of up how many bones?",
+    "What is the most common blood type in humans?",
+    "What chemical element gives the blood of a lobster a bluish tint?",
+    "The molecule “hemoglobin” is used in which type of cells?",
+    "The dingo is a type of feral dog native to which country?",
+    "The Chihuahua is a breed of dog believed to originate from what country?",
+    "The Alaskan Malamute is a type of what?",
+    "A puggle is a cross between which two dog breeds?",
+    "How many chambers are there in a dog’s heart?",
+]
 
 
 
