@@ -98,9 +98,9 @@ function startTimer() {
    $("#bkMusic")[0].play();
    $("#gif").show();
    $(".countDown").show();
-   secondsLeft = 15;
+   secondsLeft = 10;
    displayTimer();
-   halt = window.setInterval(updateTimeValue, 2000);
+   halt = window.setInterval(updateTimeValue, 1000);
 }
 // Function to stop tiimer and hide timer and gif
 function stopTimer() {
@@ -113,8 +113,15 @@ function stopTimer() {
 function displayTimer() {
    $(".countDown").html(secondsLeft + " seconds");
 }
-
-
+// function to show the countdown of seconds with a loop to reduce and stop
+function updateTimeValue() {
+   if (secondsLeft > 0) {
+      secondsLeft -= 1;
+   } else {
+      stopTimer();
+   }
+   displayTimer();
+}
 
 
 // //------------------------------------------------------------------------------- Computer
