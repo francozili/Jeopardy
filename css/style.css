@@ -94,16 +94,23 @@
     color:black;
     background-color:rgb(42, 116, 116);
      height:80vh;
-     width:80vh;
+     width:115vh;
      border: solid black;
-     margin-left: 45%;
+     margin-left: 30%;
      margin-top: 10%
    }
    td{
      border:solid black;
    }
 
-
+/* Style for Button for Game board*/
+.btn {
+  background-color: rgb(42, 116, 116);
+  color: yellow;
+  width: 125px;
+  height: 75px;
+  border-radius: 25px; 
+}
 
   
 
