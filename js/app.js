@@ -68,12 +68,32 @@ let answers = [
 let halt;
 let secondsLeft;
 let x;
-
+// for loop to iterate through buttons and check if its the right button
 for (i = 0; i < 30; i++) {
    btnId = "#b" + i;
    x = i;
    checkClick(btnId, i);
 }
+// Function for when you click on an ID or Class shows pop up menue and pass the array of question and starttimes
+// Once clicked again stop timer and pass in the answer
+// click on the answer and it hides popup
+function checkClick(idOrClass, x) {
+   $(idOrClass).click(function () {
+      $(".popUp").show();
+      $(".gameQue").text(questions[x]);
+      startTimer();
+      $(".popUp").click(function () {
+         stopTimer();
+         $(".popUp").show();
+         $(".gameQue").text(answers[x]);
+         $(".popUp").click(function () {
+            $(".popUp").hide();
+            $(idOrClass).prop("disabled", true);
+         });
+      });
+   });
+}
+
 
 
 
