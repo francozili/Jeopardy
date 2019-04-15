@@ -102,6 +102,17 @@ function startTimer() {
    displayTimer();
    halt = window.setInterval(updateTimeValue, 2000);
 }
+// Function to stop tiimer and hide timer and gif
+function stopTimer() {
+   window.clearInterval(halt);
+   $(".countDown").hide();
+   $("#gif").hide();
+   $("#bkMusic")[0].pause();
+}
+// Function to display and concatenate the seconds coutdown to string second
+function displayTimer() {
+   $(".countDown").html(secondsLeft + " seconds");
+}
 
 
 
