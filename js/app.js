@@ -1,68 +1,68 @@
 $(".popUp").hide();
 let questions = [
-    "What does the online acronym SMH stand for?",
-    "What was the first publicly traded U.S. company to reach a $1 trillion market cap?",
-    "On the popular social website Reddit, what does AMA stand for?",
-    "Mark Zuckerberg was one of the founders of which social networking site?",
-    "What was the first console video game that allowed the game to be saved?",
-    "Which metallic element has a melting point of approximately −38 °F (−39 °C)?",
-    "How many electrons does a hydrogen atom have?",
-    "What heavy metal element was once known as quicksilver?",
-    "What chemical element gives the blood of a lobster a bluish tint?",
-    "Which is the most abundant metal in the earth’s crust?",
-    "What is the seventh and final novel of the Harry Potter series?",
-    "In the Harry Potter series, what is the name of Harry’s pet owl?",
-    "What are the four houses at Hogwarts School of Witchcraft and Wizardry",
-    "Emma Watson is known for playing which character in Harry Potter?",
-    "Who directed the movie “Harry Potter and the Prisoner of Azkaban”?",
-    "Orcinus orca is the scientific name for which animal?",
-    "Which bird has eyes that are larger than its brain?",
-    "What is the only snake in the world that builds a nest for its eggs?",
-    "What is the only mammal born with horns?",
-    "A wombat is a marsupial native to which country?",
-    "What part of the human body contains five metacarpal bones?",
-    "The adult human skeleton is made of up how many bones?",
-    "What is the most common blood type in humans?",
-    "What chemical element gives the blood of a lobster a bluish tint?",
-    "The molecule “hemoglobin” is used in which type of cells?",
-    "The dingo is a type of feral dog native to which country?",
-    "The Chihuahua is a breed of dog believed to originate from what country?",
-    "The Alaskan Malamute is a type of what?",
-    "A puggle is a cross between which two dog breeds?",
-    "How many chambers are there in a dog’s heart?",
+   "What does the online acronym SMH stand for?",
+   "What was the first publicly traded U.S. company to reach a $1 trillion market cap?",
+   "On the popular social website Reddit, what does AMA stand for?",
+   "Mark Zuckerberg was one of the founders of which social networking site?",
+   "What was the first console video game that allowed the game to be saved?",
+   "Which metallic element has a melting point of approximately −38 °F (−39 °C)?",
+   "How many electrons does a hydrogen atom have?",
+   "What heavy metal element was once known as quicksilver?",
+   "What chemical element gives the blood of a lobster a bluish tint?",
+   "Which is the most abundant metal in the earth’s crust?",
+   "What is the seventh and final novel of the Harry Potter series?",
+   "In the Harry Potter series, what is the name of Harry’s pet owl?",
+   "What are the four houses at Hogwarts School of Witchcraft and Wizardry",
+   "Emma Watson is known for playing which character in Harry Potter?",
+   "Who directed the movie “Harry Potter and the Prisoner of Azkaban”?",
+   "Orcinus orca is the scientific name for which animal?",
+   "Which bird has eyes that are larger than its brain?",
+   "What is the only snake in the world that builds a nest for its eggs?",
+   "What is the only mammal born with horns?",
+   "A wombat is a marsupial native to which country?",
+   "What part of the human body contains five metacarpal bones?",
+   "The adult human skeleton is made of up how many bones?",
+   "What is the most common blood type in humans?",
+   "What chemical element gives the blood of a lobster a bluish tint?",
+   "The molecule “hemoglobin” is used in which type of cells?",
+   "The dingo is a type of feral dog native to which country?",
+   "The Chihuahua is a breed of dog believed to originate from what country?",
+   "The Alaskan Malamute is a type of what?",
+   "A puggle is a cross between which two dog breeds?",
+   "How many chambers are there in a dog’s heart?",
 ]
 
 let answers = [
-    "Shaking my head",
-    "Apple",
-    "Ask me anything",
-    "Facebook",
-    "The legend of zelda",
-    "Mercury",
-    "One",
-    "Mecury",
-    "Copper",
-    "Aluminum",
-    "Harry Potter and the Deathly Hallows",
-    "Headwig",
-    "Gryffindor, Ravenclaw, Hufflepuff, & Slytherin",
-    "Hermione Granger",
-    "Alfonso Cuarón",
-    "Killer Whale",
-    "Ostrich",
-    "King Cobra",
-    "Giraffe",
-    "Australia",
-    "The Hand",
-    "206",
-    "0+",
-    "Copper",
-    "Red blood cells",
-    "Australia",
-    "Mexico",
-    "Dog",
-    "Pug and Beagle",
-    "Four"
+   "Shaking my head",
+   "Apple",
+   "Ask me anything",
+   "Facebook",
+   "The legend of zelda",
+   "Mercury",
+   "One",
+   "Mecury",
+   "Copper",
+   "Aluminum",
+   "Harry Potter and the Deathly Hallows",
+   "Headwig",
+   "Gryffindor, Ravenclaw, Hufflepuff, & Slytherin",
+   "Hermione Granger",
+   "Alfonso Cuarón",
+   "Killer Whale",
+   "Ostrich",
+   "King Cobra",
+   "Giraffe",
+   "Australia",
+   "The Hand",
+   "206",
+   "0+",
+   "Copper",
+   "Red blood cells",
+   "Australia",
+   "Mexico",
+   "Dog",
+   "Pug and Beagle",
+   "Four"
 ]
 
 let halt;
@@ -152,28 +152,28 @@ function updateTimeValue() {
 // Function to add score
 let scoreBalance = 0
 let checkingDepositeButton = document.getElementsByClassName('add')[0].addEventListener('click', function () {
-    let checkingDeposite = document.getElementsByClassName('input')[0].value
-    scoreBalance += Number(checkingDeposite)
-    console.log(scoreBalance)
-    let newCheckingBalance = document.getElementsByClassName('balance')[0].innerText = "$" + scoreBalance
-    if (scoreBalance > 0) {
-        document.getElementById("scoreBoard").classList.remove("loss")
-    }
+   let checkingDeposite = document.getElementsByClassName('input')[0].value
+   scoreBalance += Number(checkingDeposite)
+   console.log(scoreBalance)
+   let newCheckingBalance = document.getElementsByClassName('balance')[0].innerText = "$" + scoreBalance
+   if (scoreBalance > 0) {
+      document.getElementById("scoreBoard").classList.remove("loss")
+   }
 })
 
 let checkingWithdrawal = document.getElementsByClassName('subtract')[0].addEventListener('click', function () {
    let checkingWithDrawal = document.getElementsByClassName('input')[0].value
    let currentBal = scoreBalance - Number(checkingWithDrawal)
-   if (currentBal <= -3000 ) {
-       alert("You Lost")
-       document.getElementById("scoreBoard").classList.add("loss")
-   } 
-   else if (currentBal  >= 3000 ) {
-     alert("You won")
-     document.getElementById("scoreBoard").classList.add("win")
- } 
+   if (currentBal <= -3000) {
+      alert("You Lost")
+      document.getElementById("scoreBoard").classList.add("loss")
+   }
+   else if (currentBal >= 3000) {
+      alert("You won")
+      document.getElementById("scoreBoard").classList.add("win")
+   }
    else {
-     scoreBalance = currentBal
-       document.getElementsByClassName('balance')[0].innerText = "$" + currentBal
+      scoreBalance = currentBal
+      document.getElementsByClassName('balance')[0].innerText = "$" + currentBal
    }
 })
