@@ -120,6 +120,13 @@
   color: black;
 }
   
+.countDown {
+  color: red;
+}
 
+.gameQue {
+  font-size: 50px;
+  font-family: john; 
+}
 
 
