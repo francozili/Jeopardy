@@ -107,7 +107,7 @@
 .btn {
   background-color: rgb(42, 116, 116);
   color: yellow;
-  width: 125px;
+  width: 115px;
   height: 75px;
   border-radius: 25px; 
 }
@@ -117,7 +117,8 @@
   font-size: 100px;
   font-weight: 10px;
   text-align: center;
-  color: black;
+  color: gold;
+  margin-top: 30px
 }
   
 .countDown {
@@ -129,4 +130,74 @@
   font-family: john; 
 }
 
+/* Style for Modal */
+.modalDialog {
+  /* text-align: center; */
+  font-family: horror;
+  font-size: 30px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
 
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background:blue;
+	background: -moz-linear-gradient(rgba(37, 0, 247, 0.993), rgb(226, 8, 8));
+	background: -webkit-linear-gradient(#fff, rgb(216, 7, 7));
+	background: -o-linear-gradient(#fff, rgb(240, 8, 8));
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 200px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalBtn{
+  color: black;
+    background-color: purple;
+    font-family: horror;
+    font-size: 20px;
+    /* text-decoration:none; */
+    border-radius: 200px;
+    margin-left: 30%;
+}
+.h3{
+  text-decoration: underline;
+  text-align: center;
+}
+.h2{
+  text-align: center;
+}
