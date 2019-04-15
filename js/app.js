@@ -161,4 +161,19 @@ let checkingDepositeButton = document.getElementsByClassName('add')[0].addEventL
     }
 })
 
-
+let checkingWithdrawal = document.getElementsByClassName('subtract')[0].addEventListener('click', function () {
+   let checkingWithDrawal = document.getElementsByClassName('input')[0].value
+   let currentBal = scoreBalance - Number(checkingWithDrawal)
+   if (currentBal <= -3000 ) {
+       alert("You Lost")
+      
+   } 
+   else if (currentBal  >= 3000 ) {
+     alert("You won")
+     
+ } 
+   else {
+     scoreBalance = currentBal
+       document.getElementsByClassName('balance')[0].innerText = "$" + currentBal
+   }
+})
