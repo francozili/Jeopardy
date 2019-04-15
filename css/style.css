@@ -69,6 +69,9 @@
     grid-template-columns: 60% 40%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     border:solid black;
+    background-image: url(/images/rose.jpeg);
+    background-repeat:  no-repeat;
+    background-size: cover
   }
   .title1{
     grid-column: span 2;
