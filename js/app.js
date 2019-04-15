@@ -89,6 +89,7 @@ function checkClick(idOrClass, x) {
          $(".popUp").click(function () {
             $(".popUp").hide();
             $(idOrClass).prop("disabled", true);
+            $(event.target).removeClass(".btn")
          });
       });
    });
@@ -151,19 +152,19 @@ function updateTimeValue() {
 
 // Function to add score
 let scoreBalance = 0
-let checkingDepositeButton = document.getElementsByClassName('add')[0].addEventListener('click', function () {
+let scoreBalanceButton = document.getElementsByClassName('add')[0].addEventListener('click', function () {
    let checkingDeposite = document.getElementsByClassName('input')[0].value
    scoreBalance += Number(checkingDeposite)
    console.log(scoreBalance)
-   let newCheckingBalance = document.getElementsByClassName('balance')[0].innerText = "$" + scoreBalance
+   let newScoreBalance = document.getElementsByClassName('balance')[0].innerText = "$" + scoreBalance
    if (scoreBalance > 0) {
       document.getElementById("scoreBoard").classList.remove("loss")
    }
 })
 
-let checkingWithdrawal = document.getElementsByClassName('subtract')[0].addEventListener('click', function () {
-   let checkingWithDrawal = document.getElementsByClassName('input')[0].value
-   let currentBal = scoreBalance - Number(checkingWithDrawal)
+let scoreRemoval = document.getElementsByClassName('subtract')[0].addEventListener('click', function () {
+   let scoreremoval = document.getElementsByClassName('input')[0].value
+   let currentBal = scoreBalance - Number(scoreremoval)
    if (currentBal <= -3000) {
       alert("You Lost")
       document.getElementById("scoreBoard").classList.add("loss")
