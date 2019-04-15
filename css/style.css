@@ -3,6 +3,7 @@
 @font-face{ font-family:horror; src: url(/fonts/FEASFBRG.TTF); }
 @font-face{ font-family:sky; src: url(/fonts/Blaize.otf); }
 @font-face{ font-family:john; src: url(/fonts/johnnytorchexpand.ttf); }
+/* Styling for landing page */
 .backimg {
 
     background-image: url('/images/Jupiter_Flyby_HP.jpg');
@@ -21,6 +22,7 @@
     height: 100%;
     margin: 0;
   }
+  /* Styling for Logo */
   .logo {
     position: absolute;
     top: 0;
@@ -51,7 +53,7 @@
     margin: auto;
     width: 40%;
   }
-   
+   /* Styling for Landing Button */
   .landingButton {
     color: black;
     background-color: purple;
@@ -64,6 +66,7 @@
   .landingButton:hover{
    background-color: red;
   }
+  /* Styling for Game Board */
   .gamePage1{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -99,6 +102,8 @@
    td{
      border:solid black;
    }
+
+
 
   
 
